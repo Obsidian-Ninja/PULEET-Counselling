@@ -3,7 +3,7 @@ import { House, MoveRight } from "lucide-react";
 const NotFound = () => {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center gap-6 px-4 py-8 text-center md:flex-row md:gap-12 md:text-left lg:gap-16">
-      {/* Image */}
+
       <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
         <img
           src="/images/404.png"
@@ -12,7 +12,6 @@ const NotFound = () => {
         />
       </div>
 
-      {/* Content */}
       <div className="flex max-w-md flex-col items-center gap-3 md:items-start">
         <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl">
           Oops! Page Not Found
@@ -22,7 +21,6 @@ const NotFound = () => {
         </p>
         <p className="text-gray-600">Let's get you back on track!</p>
 
-        {/* Actions */}
         <div className="mt-4 flex flex-col items-center gap-4 sm:flex-row">
           <a
             href="/"
